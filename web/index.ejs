@@ -1,0 +1,23 @@
+<body>
+    订单列表
+    <!-- 带=的不会解析HTML标签，
+        带-的会解析HTML标签
+        判断语句注意：1.不能加=号 2.闭合{}-->
+    <%= title %>
+    <hr>
+    <%- content %>
+    <hr>
+    姓名是什么：<%= person.name %><br />
+    年龄是什么：<%= person.age %><br />
+    姓别是什么：<%= person.sex?"男":"女" %><br />
+    姓别是什么：<% if(person.sex){ %>
+    <span style="color: red">男</span>
+    <% }else{     %>
+    女
+    <% } %>
+    <hr>
+    爱好是什么：
+    <% for(var i = 0; i < person.fav.length ;i++){%>
+    <%=     person.fav[i]%>
+    <%  }%>
+</body>
