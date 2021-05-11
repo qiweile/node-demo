@@ -15,4 +15,6 @@ $ npm start
 ```
 
 ### 一个node小模板
-``` 特色 学习 node 和 webSocket 用法的可以参考一下
+``` 
+特色 学习 node 和 webSocket 用法的可以参考一下
+```
